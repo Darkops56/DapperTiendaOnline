@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TiendaOnline.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TiendaOnline.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TiendaOnline.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "TiendaOnline.Core/1.0.0": {
+      "type": "project",
+      "path": "../TiendaOnline.Core/TiendaOnline.Core.csproj",
+      "msbuildProject": "../TiendaOnline.Core/TiendaOnline.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Dapper >= 2.1.66",
+      "TiendaOnline.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\darko\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\TiendaOnline.Dapper.csproj",
+      "projectName": "TiendaOnline.Dapper",
+      "projectPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\TiendaOnline.Dapper.csproj",
+      "packagesPath": "C:\\Users\\darko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\darko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Core\\TiendaOnline.Core.csproj": {
+              "projectPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Core\\TiendaOnline.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
