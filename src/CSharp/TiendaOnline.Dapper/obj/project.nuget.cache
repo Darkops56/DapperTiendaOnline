@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TM3FRTwNpM8=",
+  "dgSpecHash": "qZnxK8JtuBk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\TiendaOnline.Dapper.csproj",
+  "projectFilePath": "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Dapper/TiendaOnline.Dapper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\darko\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+    "/home/et12alumno/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512"
   ],
   "logs": []
 }

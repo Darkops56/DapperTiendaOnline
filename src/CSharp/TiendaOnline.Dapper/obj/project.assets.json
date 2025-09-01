@@ -60,32 +60,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\darko\\.nuget\\packages\\": {}
+    "/home/et12alumno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\TiendaOnline.Dapper.csproj",
+      "projectUniqueName": "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Dapper/TiendaOnline.Dapper.csproj",
       "projectName": "TiendaOnline.Dapper",
-      "projectPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\TiendaOnline.Dapper.csproj",
-      "packagesPath": "C:\\Users\\darko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Dapper\\obj\\",
+      "projectPath": "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Dapper/TiendaOnline.Dapper.csproj",
+      "packagesPath": "/home/et12alumno/.nuget/packages/",
+      "outputPath": "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Dapper/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\darko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Core\\TiendaOnline.Core.csproj": {
-              "projectPath": "C:\\Users\\darko\\Documents\\GitHub\\main\\src\\CSharp\\TiendaOnline.Core\\TiendaOnline.Core.csproj"
+            "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Core/TiendaOnline.Core.csproj": {
+              "projectPath": "/mnt/Datos/DapperTiendaOnline/src/CSharp/TiendaOnline.Core/TiendaOnline.Core.csproj"
             }
           }
         }
@@ -100,7 +101,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -127,7 +128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
