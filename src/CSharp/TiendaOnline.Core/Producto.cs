@@ -8,5 +8,5 @@ public class Producto
     public string descripcion { get; set; }
     public int idInventario { get; set; }
     public int idGarantia { get; set; }
-    public int idCategoria { get; set; }
+    public Categoria idCategoria { get; set; }
 }
